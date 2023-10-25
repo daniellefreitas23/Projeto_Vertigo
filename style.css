@@ -8,8 +8,9 @@
 
 /* 1rem = 16px */
 :root{
-    --gray-888: #1E2938;
+    --gray-800: #1E2938;
     --gray-600: #475569;
+    --purple: #7C3AED;
 }
 
 header {
@@ -29,12 +30,11 @@ main {
 }
 
 .descriçao{
-    border: 1px solid red;
     margin-bottom: 2.5rem;
 }
 
 .descriçao h1 {
-    color: var(--gray-888);
+    color: var(--gray-800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;
 }
@@ -42,5 +42,32 @@ main {
 .descriçao p {
     font-size: 0.8125rem;
     color: var(--gray-600);
-    margin-bottom: 2.5rems;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+.login a {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.login a:hover {
+    text-decoration: underline;
 }
