@@ -1,0 +1,46 @@
+* {
+    /* reset do CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* 1rem = 16px */
+:root{
+    --gray-888: #1E2938;
+    --gray-600: #475569;
+}
+
+header {
+    background-image: url(./imagens/bg-mobile.png);
+    background-size: cover;
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3.7rem;
+}
+
+main {
+    padding-inline: 1.5rem;
+}
+
+.descriçao{
+    border: 1px solid red;
+    margin-bottom: 2.5rem;
+}
+
+.descriçao h1 {
+    color: var(--gray-888);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
+
+.descriçao p {
+    font-size: 0.8125rem;
+    color: var(--gray-600);
+    margin-bottom: 2.5rems;
+}
