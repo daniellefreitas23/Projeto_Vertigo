@@ -13,6 +13,7 @@
     --gray-400: #94a3b8;
     --gray-200: #E2E8F0;
     --purple: #7C3AED;
+    --light-purple: #9F67FF;
     --white: #fff;
 }
 
@@ -119,6 +120,12 @@ main {
     display: none;
 }
 
+.login button:hover {
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 @media(min-width: 1000px) {
     body {
         display: flex;
@@ -144,10 +151,21 @@ main {
 
     .conteudo {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .bg-desktop {
         display: block;
         width: 100%;
+    }
+
+    .descricao h1 {
+        font-size: 2,25rem;
+    }
+
+    .descricao p {
+        font-size: 1rem;
     }
 }
