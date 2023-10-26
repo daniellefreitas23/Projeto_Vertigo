@@ -13,7 +13,7 @@
     --gray-400: #94a3b8;
     --gray-200: #E2E8F0;
     --purple: #7C3AED;
-    --whitw: #fff;
+    --white: #fff;
 }
 
 header {
@@ -36,13 +36,13 @@ main {
     margin-bottom: 2.5rem;
 }
 
-.descriçao h1 {
+.descricao h1 {
     color: var(--gray-800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;
 }
 
-.descriçao p {
+.descricao p {
     font-size: 0.8125rem;
     color: var(--gray-600);
 }
@@ -52,7 +52,6 @@ main {
     flex-direction: column;
     gap: 0.5rem;
     margin-bottom: 1rem;
-    border: 1px solid reds;
 }
 
 .input-box div {
@@ -104,7 +103,7 @@ main {
 
     font-size: 1rem;
     font-weight: 600;
-    color: var(--whitw);
+    color: var(--white);
 }
 
 .login > p {
