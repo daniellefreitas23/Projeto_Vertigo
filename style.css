@@ -10,6 +10,8 @@
 :root{
     --gray-800: #1E2938;
     --gray-600: #475569;
+    --gray-400: #94a3b8;
+    --gray-200: #E2E8F0;
     --purple: #7C3AED;
 }
 
@@ -47,6 +49,9 @@ main {
 .input-box {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid reds;
 }
 
 .input-box div {
@@ -59,6 +64,22 @@ main {
     font-size: 0.875rem;
     color: var(--gray-800);
     font-weight: 600;
+}
+
+.login input {
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.25rem;
+    color: var(--gray-800);
+}
+
+.login input::placeholder {
+    color: var(--gray-400);
+}
+
+.login input:hove,
+.login input:focus {
+    outline: 1px solid var(--purple);
 }
 
 .login a {
