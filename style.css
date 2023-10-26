@@ -18,7 +18,7 @@
 }
 
 header {
-    background-image: url(./imagens/img(1).png);
+    background-image: url(./imagens/bg-mobile.png);
     background-size: cover;
     height: 8.375rem;
 
@@ -33,7 +33,7 @@ main {
     padding-inline: 1.5rem;
 }
 
-.descriçao{
+.descricao{
     margin-bottom: 2.5rem;
 }
 
@@ -78,7 +78,7 @@ main {
     color: var(--gray-400);
 }
 
-.login input:hove,
+.login input:hover
 .login input:focus {
     outline: 1px solid var(--purple);
 }
@@ -96,14 +96,14 @@ main {
 .login button {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    padding-block: 1.6rem;
+    padding-block: 1rem;
     width: 100%;
     background: var(--purple);
     border: none;
     border-radius: 0.25rem;
 
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--white);
 }
 
@@ -169,7 +169,7 @@ main {
     }
 
     .descricao h1 {
-        font-size: 2,25rem;
+        font-size: 2.25rem;
     }
 
     .descricao p {
